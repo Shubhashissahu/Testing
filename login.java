@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class VulnerableLogin {
+public class Login {
     public boolean login(String username, String password) throws SQLException {
         Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
         Statement stmt = conn.createStatement();
